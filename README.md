@@ -66,17 +66,21 @@ dataset/
 
 ## Usage
 
-1. **Ensure you have the FER2013 dataset** in the `dataset/FER2013` directory with the structure outlined above.
+1. **Ensure the FER2013 dataset** is in the `dataset/FER2013` directory.
 
-2. **Run the training script:**
-
+2. **Run emotion detection:**
    ```bash
-   python train_model.py
+   python recognition.py 
    ```
-3.	Evaluate the model:
+
+3. **Explore the notebook:**
     ```bash
-    python evaluate_model.py
+    jupyter notebook recognition.ipynb
     ```
+
+4.	**Model file:** emotion_detection.keras should be in the project directory for the scripts to function.
+
+
 
 ## Results
 
@@ -91,6 +95,7 @@ Feel free to submit issues or pull requests. Contributions are welcome!
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-
+```
 •	FER2013 dataset by Kaggle.
 •	TensorFlow and Keras for their powerful libraries.
+```
