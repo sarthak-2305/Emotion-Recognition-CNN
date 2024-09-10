@@ -21,6 +21,7 @@ You can download the dataset from [Kaggle’s FER2013 page](https://www.kaggle.c
 
 After downloading, place the dataset in the `dataset/FER2013` directory with the following structure:
 
+```
 dataset/
 └── FER2013/
     ├── train/
@@ -39,6 +40,7 @@ dataset/
         ├── sad/
         ├── surprise/
         └── neutral/
+```
 
 
 ## Installation
@@ -90,5 +92,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 
-	•	FER2013 dataset by Kaggle.
-	•	TensorFlow and Keras for their powerful libraries.
+•	FER2013 dataset by Kaggle.
+•	TensorFlow and Keras for their powerful libraries.
